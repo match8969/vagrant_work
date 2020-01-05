@@ -1,0 +1,13 @@
+DEPENDENCIES
+  anaconda (= 0.5.0)
+
+GRAPH
+  anaconda (0.5.0)
+    apt (>= 0.0.0)
+    runit (>= 0.0.0)
+  apt (7.2.0)
+  packagecloud (1.0.1)
+  runit (5.1.2)
+    packagecloud (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  yum-epel (3.3.0)
